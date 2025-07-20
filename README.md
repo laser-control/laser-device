@@ -9,6 +9,8 @@ A lot of similar devices can be [found on sale](https://de.aliexpress.com/w/whol
 2. develop a protocol between the device and computer
 3. implement the software to run on STM32
 
+There is also [DMX interface](DMX.md), but I am sure it works
+
 ## Hardware
 
 ![View](docs/images/Laser-device-view-1.png)
