@@ -5,9 +5,9 @@ A lot of similar devices can be [found on sale](https://de.aliexpress.com/w/whol
 
 ## TODO
 
-1. implement hardware using STM32 blue pill (STM32F103C6**)
-2. develop a protocol between the device and computer
-3. implement the software to run on chip (with the doc how to compile, install and run on chip)
+1. develop a protocol between the device and computer
+2. implement the software to run on chip (with the doc how to compile, install and run on chip)
+3. implement hardware using STM32 blue pill (STM32F103C6**)
 
 The protocol may be as simple as possible to parse and run on chip.
 (it does not have to be complex G-code)
