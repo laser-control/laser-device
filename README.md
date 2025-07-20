@@ -5,11 +5,14 @@ A lot of similar devices can be [found on sale](https://de.aliexpress.com/w/whol
 
 ## TODO
 
-1. implement hardware using STM32 blue pill
+1. implement hardware using STM32 blue pill (STM32F103C6**)
 2. develop a protocol between the device and computer
-3. implement the software to run on STM32
+3. implement the software to run on chip (with the doc how to compile, install and run on chip)
 
-There is also [DMX interface](DMX.md), but I am not sure it works
+The protocol may be as simple as possible to parse and run on chip.
+(it does not have to be complex G-code)
+
+There is also [DMX interface](DMX.md), but I am not sure if it works
 
 ## Hardware
 
