@@ -13,12 +13,16 @@ There is also [DMX interface](DMX.md), but I am sure it works
 
 ## Hardware
 
+### Motors
+
+1. The device has two [unipolar step motors.](step-motors.md)
+
+### Internals
 ![View](docs/images/Laser-device-view-1.png)
 
 [This is how](https://youtube.com/shorts/rjiIK6qfQHM?feature=share)
 the device begins to work.
 
-### Internals
 
 #### View
 ![photo11](docs/images/Device-open-1.jpg)
