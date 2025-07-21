@@ -4,7 +4,9 @@ The goal of the project is to be able to drive this device from a computer.
 A lot of similar devices can be [found on sale](https://de.aliexpress.com/w/wholesale-laser-show-system.html?spm=a2g0o.home.auto_suggest.2.269a7a8b2kO67i)
 
 ## TODO
+Implement any of the options
 
+### Option STM
 1. develop a protocol between the device and computer
 2. implement the software to run on chip (with the doc how to compile, install and run on chip)
 3. implement hardware using STM32 blue pill (STM32F103C6**)
@@ -12,6 +14,10 @@ A lot of similar devices can be [found on sale](https://de.aliexpress.com/w/whol
 The protocol may be as simple as possible to parse and run on chip.
 (it does not have to be complex G-code)
 
+### Option Arduino
+1. Develop the solution with [grbl](https://github.com/grbl/grbl)
+
+### Option DMX
 There is also [DMX interface](DMX.md), but I am not sure if it works
 
 ## Hardware
