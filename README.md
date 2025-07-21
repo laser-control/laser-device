@@ -19,6 +19,7 @@ The protocol may be as simple as possible to parse and run on chip.
 
 ### Option DMX
 There is also [DMX interface](DMX.md), but I am not sure if it works
+(when connected with a DMX cable - no device appears on computer)
 
 ## Hardware
 
