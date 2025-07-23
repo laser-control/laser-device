@@ -14,6 +14,8 @@ Implement any of the options
 The protocol may be as simple as possible to parse and run on chip.
 (it does not have to be complex G-code)
 
+![pic1](docs/images/STM32-controller-2.jpg)
+
 ### Option Arduino
 1. Develop the solution with [grbl](https://github.com/grbl/grbl)
 
