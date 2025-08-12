@@ -53,3 +53,9 @@ the maximum lase light output and extend the life of the light source.
 [The cable](https://www.lixada.com/p-l0385.html)
 
 ![pic3](docs/images/DMX-cable-1.jpg)
+
+## Tutorials
+
+[How to use QLC+](https://www.youtube.com/watch?v=41vtiM_T-qY)
+
+
