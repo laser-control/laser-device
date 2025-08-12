@@ -19,13 +19,22 @@ DMX channel function: This product uses standard DMX-512 signal,
 a total of 10 control channels, the control content is as follows:
 
 
-| Channel |                        Channel Instruction                         |                                              Value range | Function Instruction                                              |
-|:-------:|:------------------------------------------------------------------:|---------------------------------------------------------:|:------------------------------------------------------------------|
-|   CH1   |                           Mode selection                           |                0-63  <br/>64-127<br/>128-191<br/>192-255 | Closed light mode<br/>Manual mode<br/>Auto mode<br/>Sound mode    |
-|   CH2   |                         Closed light mode                          | No | No                                                                | 
-|   CH2   |   Manual mode   | 0-255 | 51 patterns to choose                                             |
-|   CH2   |   Auto mode   | 0-63<br/>64-127<br/>128-191<br/>192-255 | Auto mode 1<br/>Auto mode 2<br/>Auto mode 3<br/>Auto mode 4<br/>  |
-|   CH2   |   Sound mode   | 0-63<br/>64-127<br/>128-191<br/>192-255 | Sound mode 1<br/>Sound mode 2<br/>Sound mode 3<br/>Sound mode 4<br/> |
+| Channel | Channel Instruction  |                                              Value range | Function Instruction                                                                                                               |
+|:-------:|:--------------------:|---------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------|
+|   CH1   |    Mode selection    |                0-63  <br/>64-127<br/>128-191<br/>192-255 | Closed light mode<br/>Manual mode<br/>Auto mode<br/>Sound mode                                                                     |
+|   CH2   |  Closed light mode   |                                                       No | No                                                                                                                                 | 
+|   CH2   |     Manual mode      |                                                    0-255 | 51 patterns to choose                                                                                                              |
+|   CH2   |      Auto mode       |                  0-63<br/>64-127<br/>128-191<br/>192-255 | Auto mode 1<br/>Auto mode 2<br/>Auto mode 3<br/>Auto mode 4<br/>                                                                   |
+|   CH2   |      Sound mode      |                  0-63<br/>64-127<br/>128-191<br/>192-255 | Sound mode 1<br/>Sound mode 2<br/>Sound mode 3<br/>Sound mode 4<br/>                                                               |
+|   CH3   |    Angle control     |                            0-127<br/>128-191<br/>192-255 | Rotation angle selection<br/>Positive rotation speed selection, **<br/>Anti-rotation speed selection, **                           |
+|   CH4   |   Horizontal angle   |                                        0-127<br/>128-255 | Horizontal flip position selection<br/>Horizontal flip speed selection, **                                                         |
+|   CH5   |    Vertical angle    |                                        0-127<br/>128-255 | Vertical flip position selection<br/>Vertical flip speed selection, **                                                             |
+|   CH6   | Horizontal position  |                                        0-127<br/>128-255 | Horizontal position selection<br/>Horizontal movement speed selection, **                                                          |
+|   CH7   |  Vertical position   |                                        0-127<br/>128-255 | Vertical position selection<br/>Vertical movement speed selection, **                                                              |
+|   CH8   | Pattern size control |                  0-63<br/>64-127<br/>128-191<br/>192-255 | Fixed size, **<br/>Choose from small to large speed, **<br/>Choose from large to small speed, **<br/>Size zoom speed selection, ** |
+|   CH9   |    Color control     |                  0-63<br/>64-127<br/>128-191<br/>192-255 | Monochrome color selection<br/>Color mixing<br/>CMonochome Auto<br/>Auto                                                           |
+|  CH10   |     Code control     |                                        0-127<br/>128-255 | The pattern has dots and lines<br/>Pattern with dots, wireless strips                                                              |
+** the larger the value, the faster the speed
 
 ### Printed
 ![pic1](docs/images/DMX-1.jpg)
