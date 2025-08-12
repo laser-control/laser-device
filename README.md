@@ -9,10 +9,12 @@ Implement any of the options
 ### Option STM
 1. develop a protocol between the device and computer
 2. implement the software to run on chip (with the doc how to compile, install and run on chip)
-3. implement hardware using STM32 blue pill (STM32F103C6**)
+3. use the hardware using STM32 blue pill (STM32F103C6**), see the picture below
 
 The protocol may be as simple as possible to parse and run on chip.
 (it does not have to be complex G-code)
+
+![pic1](docs/images/STM32-controller-2.jpg)
 
 ### Option Arduino
 1. Develop the solution with [grbl](https://github.com/grbl/grbl)
