@@ -36,6 +36,14 @@ a total of 10 control channels, the control content is as follows:
 |  CH10   |     Code control     |                                        0-127<br/>128-255 | The pattern has dots and lines<br/>Pattern with dots, wireless strips                                                              |
 ** the larger the value, the faster the speed
 
+**Maintenance:**
+
+1. Try to prevent the artificial laying of dust, dirt and smoke oil or even flow into 
+the lamp body, and use the environment to keep the laser performance device as clean as possible.
+2. Please use a professional glass cleaner to clean the lens regularly every month to ensure
+the maximum lase light output and extend the life of the light source.
+3. Do not face the semiconductor light-emitting body for a long time, so as not to hurt eyes.
+
 ### Printed
 ![pic1](docs/images/DMX-1.jpg)
 ![pic2](docs/images/DMX-2.jpg)
