@@ -54,8 +54,16 @@ the maximum lase light output and extend the life of the light source.
 
 ![pic3](docs/images/DMX-cable-1.jpg)
 
-## Tutorials
+### Tutorials
 
 [How to use QLC+](https://www.youtube.com/watch?v=41vtiM_T-qY)
 
+## Lighting Control using DMX512 protocol on STM32
+
+[This is an example](http://www.emcu.it/STM32/Lighting-Control-using-DMX512-protocol-on-STM32/Lighting-Control-using-DMX512-protocol-on-STM32.html)
+of using DMX512 protocol on STM32.
+
+The source code is not provided, but it is implemented by another developer.
+* [The receiver](https://github.com/aleksandrgilfanov/stm32-dmx-receiver)
+* [The transmitter](https://github.com/aleksandrgilfanov/stm32f4-dmx-transmitter)
 
